@@ -1,0 +1,34 @@
+{
+  "name": "ng-annotatify",
+  "version": "1.0.0",
+  "description": "Browserify transform for ng-annotate",
+  "author": "Good Eggs <open-source@goodeggs.com>",
+  "contributors": [
+    "dannynelson <danny@goodeggs.com>"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "browserify",
+    "ng-annotate",
+    "transform"
+  ],
+  "main": "lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/goodeggs/ng-annotatify.git"
+  },
+  "homepage": "https://github.com/goodeggs/ng-annotatify",
+  "bugs": "https://github.com/goodeggs/ng-annotatify/issues",
+  "dependencies": {
+    "through": "^2.3.6",
+    "ng-annotate": "^0.15.4"
+  },
+  "devDependencies": {
+    "coffee-script": ">=1.8.x",
+    "mocha": "~1.x.x"
+  },
+  "scripts": {
+    "compile": "coffee --bare --compile --output lib/ src/",
+    "prepublish": "npm run compile"
+  }
+}
