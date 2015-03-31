@@ -1,6 +1,6 @@
 {
   "name": "ng-annotatify",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Browserify transform for ng-annotate",
   "author": "Good Eggs <open-source@goodeggs.com>",
   "contributors": [
