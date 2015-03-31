@@ -12,7 +12,7 @@
     "ng-annotate",
     "transform"
   ],
-  "main": "lib/index.js",
+  "main": "src/index.coffee",
   "repository": {
     "type": "git",
     "url": "git://github.com/goodeggs/ng-annotatify.git"
